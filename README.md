@@ -1,4 +1,5 @@
 # Code for CVPR 2024 Submission 
+# Leveraging-Out-of-Domain-Data-for-Domain-Specific-Prompt-Tuning-in-Multi-Modal-Fake-News-Detection
 The spread of fake news using out-of-context images has001
 become widespread and is a challenging task in this era002
 of information overload. Since annotating huge amounts003
@@ -24,5 +25,5 @@ strate that the proposed framework achieves state of-the-022
 art performance, significantly surpassing the existing ap-023
 proaches for this challenging task.
 ![cvpr2024sub1](https://github.com/anonymousdragon1729/Leveraging-Out-of-Domain-Data-for-Domain-Specific-Prompt-Tuning-in-Multi-Modal-Fake-News-Detection/assets/151718362/ea0fe17e-090b-4ec3-b576-15bc92487502)
-# Leveraging-Out-of-Domain-Data-for-Domain-Specific-Prompt-Tuning-in-Multi-Modal-Fake-News-Detection
+
 
