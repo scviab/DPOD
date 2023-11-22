@@ -26,6 +26,6 @@ proaches for this challenging task.
 - The whole NewsCLIPpings dataset was used in our task
 ## Running Code
 ### For Creating the Domain Embedding and Storing it into the JSON file
-```
+```python
 python3 make_dom_vector.py
 ```
