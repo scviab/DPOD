@@ -79,8 +79,8 @@ torch.cuda.manual_seed(args.seed)
 
 
 
-data_path_train = json.load(open("/home/suraj/Suraj_data/OoC-multi-modal-fc/finetuning_clip/nc_all_data_25_percent_train_domains_embed.json"))
-data_path_test = json.load(open("/home/suraj/Suraj_data/OoC-multi-modal-fc/finetuning_clip/nc_SPORT_domains_embed_test.json"))
+data_path_train = json.load(open("")) # train json path
+data_path_test = json.load(open(""))  # test json path
 
 
 #### settings of the model ####
