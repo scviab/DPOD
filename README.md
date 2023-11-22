@@ -14,11 +14,7 @@ in-domain and out-of-domain data in a label-aware man-
 ner. Further, we propose a domain-specific prompt learning
 technique which leverages the training samples of all the
 available domains based on the the extent they can be useful
-to the desired domain. Extensive experiments on a large-
-scale benchmark dataset, namely NewsClippings demon-
-strate that the proposed framework achieves state of-the-
-art performance, significantly surpassing the existing ap-
-proaches for this challenging task.
+to the desired domain. 
 ![cvpr2024sub1](https://github.com/anonymousdragon1729/Leveraging-Out-of-Domain-Data-for-Domain-Specific-Prompt-Tuning-in-Multi-Modal-Fake-News-Detection/assets/151718362/ea0fe17e-090b-4ec3-b576-15bc92487502)
 
 ## Dataset Collection
@@ -29,3 +25,25 @@ proaches for this challenging task.
 ```python
 python3 make_dom_vector.py
 ```
+### In order to train CLIP-ViT B/32 in the proposed Label Aware Manner to get A-CLIP
+```python
+python3 make_label_aware_clip.py
+```
+### Running CoOp + A-CLIP
+```python
+python3 make_label_aware_clip.py
+```
+### Running our Proposed DPOD Framework
+```python
+python3 main_ft_dpod.py
+```
+![Screenshot from 2023-11-22 13-24-42](https://github.com/anonymousdragon1729/Leveraging-Out-of-Domain-Data-for-Domain-Specific-Prompt-Tuning-in-Multi-Modal-Fake-News-Detection/assets/151718362/9a0ec7b0-ed40-4ce4-b331-c79a26d21ef8)
+
+### Evaluating our Proposed DPOD Framework
+```python
+python3 evaluate_dpod.py
+```
+![Screenshot from 2023-11-22 13-24-08](https://github.com/anonymousdragon1729/Leveraging-Out-of-Domain-Data-for-Domain-Specific-Prompt-Tuning-in-Multi-Modal-Fake-News-Detection/assets/151718362/fd4e9677-6c44-4bcd-a774-7988129565f4)
+
+
+
