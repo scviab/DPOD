@@ -18,6 +18,17 @@ to the desired domain.
 - The query images and captions are found in the NewsCLIPpings datasets (we use the merged balanced dataset) [code](https://github.com/g-luo/news_clippings).
 - The whole NewsCLIPpings dataset was used in our task
 ## Running Code
+### Creating the Environment to Run the Code
+Create the environment from the given yml file using the command:
+```
+conda env create -f dpod_env.yml
+```
+Activate the environment using the command:
+```
+conda activate dpod_env.yml
+```
+
+
 ### For Creating the Domain Embedding and Storing it into the JSON file
 ```python
 python3 make_dom_vector.py
