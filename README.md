@@ -25,7 +25,7 @@ conda env create -f dpod_env.yml
 ```
 Activate the environment using the command:
 ```
-conda activate dpod_env.yml
+conda activate dpod_env
 ```
 
 
