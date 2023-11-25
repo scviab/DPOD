@@ -15,7 +15,7 @@ to the desired domain.
 ![cvpr2024sub1](https://github.com/anonymousdragon1729/Leveraging-Out-of-Domain-Data-for-Domain-Specific-Prompt-Tuning-in-Multi-Modal-Fake-News-Detection/assets/151718362/ea0fe17e-090b-4ec3-b576-15bc92487502)
 
 ## Dataset Collection
-- The query images and captions are found in the NewsCLIPpings datasets (we use the merged balanced dataset) [[link](https://github.com/g-luo/news_clippings)].
+- The query images and captions are found in the NewsCLIPpings datasets (we use the merged balanced dataset) [[Link](https://github.com/g-luo/news_clippings)].
 - The whole NewsCLIPpings dataset was used in our task.
 ## Running Code
 ### Creating the Environment to Run the Code
