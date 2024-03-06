@@ -114,7 +114,7 @@ for k,v in dom_all_embeddings.items():
         dom_vector_embeddings[dom_idx[d]] = cos_sim
     final_dom_embeddings[k] = dom_vector_embeddings
 
-data_path_all_train = json.load(open("/home/suraj/Suraj_data/OoC-multi-modal-fc/finetuning_clip/nc_all_data_25_percent_train_common_domains.json"))
+data_path_all_train = json.load(open(""))
 for idx in data_path_all_train:
     data_path_all_train[idx]['dom_embed'] = np.array(final_dom_embeddings[data_path_all_train[idx]['topic']],dtype = np.float64).tolist()
 
