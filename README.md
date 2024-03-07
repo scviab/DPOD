@@ -1,4 +1,4 @@
-# Code for CVPR 2024 Submission 
+# Code for ECCV 2024 Submission 
 # Leveraging-Out-of-Domain-Data-for-Domain-Specific-Prompt-Tuning-in-Multi-Modal-Fake-News-Detection
 In this work, we explore
 whether out-of-domain data can help to improve out-of
