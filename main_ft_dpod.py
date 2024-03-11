@@ -26,11 +26,11 @@ from sklearn.metrics import confusion_matrix, classification_report
 import clip_classifier
 parser = argparse.ArgumentParser(description='Training using the precomputed embeddings')
 ##### locations #####  
-parser.add_argument('--visual_news_root', type=str, default='/home/suraj/Suraj_data/OoC-multi-modal-fc/visual_news/origin/',
+parser.add_argument('--visual_news_root', type=str, default='../visual_news_path',
                     help='location to the root folder of the visualnews dataset')
-parser.add_argument('--news_clip_root', type=str, default='/home/suraj/Suraj_data/OoC-multi-modal-fc/news_clippings/data/merged_balanced/',
+parser.add_argument('--news_clip_root', type=str, default='../news_clippings/data/merged_balanced/',
                     help='location to the root folder of the clip dataset')               
-parser.add_argument('--exp_folder', type=str, default='/home/suraj/Suraj_data/OoC-multi-modal-fc/finetuning_clip/exp_with_100_percent_WOACLIP-domain_prompt_AD_test_test2/',
+parser.add_argument('--exp_folder', type=str, default='../model_saved_path',
                     help='path to the folder to log the output and save the models')
                     
 ###### model details ########                    
