@@ -1,7 +1,6 @@
 # Code for ECCV 2024 Submission 
 # DPOD: Domain-Specific Prompt Tuning for Multimodal Fake News Detection
 
-![cvpr2024sub1](https://github.com/anonymousdragon1729/Leveraging-Out-of-Domain-Data-for-Domain-Specific-Prompt-Tuning-in-Multi-Modal-Fake-News-Detection/assets/151718362/ea0fe17e-090b-4ec3-b576-15bc92487502)
 
 ## Dataset Collection
 - The query images and captions are found in the NewsCLIPpings datasets (we use the merged balanced dataset) [[Link](https://github.com/g-luo/news_clippings)].
