@@ -1,5 +1,6 @@
 # Code for ECCV 2024 Submission 
 # DPOD: Domain-Specific Prompt Tuning for Multimodal Fake News Detection
+![DPOD](https://github.com/anonymouspeacock/DPOD/assets/151718362/5ed1a0d2-6d0c-45fc-abe9-386a6f6f03f2)
 
 
 ## Dataset Collection
