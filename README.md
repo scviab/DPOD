@@ -40,7 +40,6 @@ python3 evaluate_dpod.py
 ```
 
 
-![Screenshot from 2023-11-22 13-24-08](https://github.com/anonymousdragon1729/Leveraging-Out-of-Domain-Data-for-Domain-Specific-Prompt-Tuning-in-Multi-Modal-Fake-News-Detection/assets/151718362/fd4e9677-6c44-4bcd-a774-7988129565f4)
 
 
 
