@@ -31,8 +31,6 @@ device = "cuda:1" if torch.cuda.is_available() else "cuda:1" # If using GPU then
 
 
 class SupConLoss(nn.Module):
-    """Supervised Contrastive Learning: https://arxiv.org/pdf/2004.11362.pdf.
-    It also supports the unsupervised contrastive loss in SimCLR"""
     def __init__(self, temperature=0.07, contrast_mode='all',
                  base_temperature=0.07):
         super(SupConLoss, self).__init__()
@@ -44,8 +42,6 @@ class SupConLoss(nn.Module):
 
     def forward(self, features, labels=None, mask=None):
         """Compute loss for model. If both `labels` and `mask` are None,
-        it degenerates to SimCLR unsupervised loss:
-        https://arxiv.org/pdf/2002.05709.pdf
 
         Args:
             features: hidden vector of shape [bsz, n_views, ...].
@@ -214,7 +210,7 @@ train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True
 epochs = 40
 temp = 0.05
 criterion = SupConLoss(temperature=temp)
-e   
+
 
             
 total_loss = 0
