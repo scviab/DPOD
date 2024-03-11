@@ -34,9 +34,6 @@ python3 make_label_aware_clip.py
 ```python
 python3 main_ft_dpod.py
 ```
-![Screenshot from 2023-11-22 14-15-29](https://github.com/anonymousdragon1729/Leveraging-Out-of-Domain-Data-for-Domain-Specific-Prompt-Tuning-in-Multi-Modal-Fake-News-Detection/assets/151718362/5342b044-e334-433c-8a81-babe3e4515b0)
-![Screenshot from 2023-11-22 13-24-42](https://github.com/anonymousdragon1729/Leveraging-Out-of-Domain-Data-for-Domain-Specific-Prompt-Tuning-in-Multi-Modal-Fake-News-Detection/assets/151718362/9a0ec7b0-ed40-4ce4-b331-c79a26d21ef8)
-
 ### Evaluating our Proposed DPOD Framework
 ```python
 python3 evaluate_dpod.py
