@@ -1,5 +1,5 @@
 # Code for ECCV 2024 Submission 
-# Leveraging-Out-of-Domain-Data-for-Domain-Specific-Prompt-Tuning-in-Multi-Modal-Fake-News-Detection
+# DPOD: Domain-Specific Prompt Tuning for Multimodal Fake News Detection
 In this work, we explore
 whether out-of-domain data can help to improve out-of
 context misinformation detection (termed here as multi
