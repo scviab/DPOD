@@ -26,11 +26,11 @@ from sklearn.metrics import confusion_matrix, classification_report
 import clip_classifier
 parser = argparse.ArgumentParser(description='Training using the precomputed embeddings')
 ##### locations #####  
-parser.add_argument('--visual_news_root', type=str, default='/home/suraj/Suraj_data/OoC-multi-modal-fc/visual_news/origin/',
+parser.add_argument('--visual_news_root', type=str, default='',
                     help='location to the root folder of the visualnews dataset')
-parser.add_argument('--news_clip_root', type=str, default='/home/suraj/Suraj_data/OoC-multi-modal-fc/news_clippings/data/merged_balanced/',
+parser.add_argument('--news_clip_root', type=str, default='',
                     help='location to the root folder of the clip dataset')               
-parser.add_argument('--exp_folder', type=str, default='/home/suraj/Suraj_data/OoC-multi-modal-fc/finetuning_clip/exp_with_v1v2v3_prompt/',
+parser.add_argument('--exp_folder', type=str, default='',
                     help='path to the folder to log the output and save the models')
                     
 ###### model details ########                    
@@ -286,7 +286,7 @@ def train():
      
 try:
 
-    checkpoint = torch.load("/home/suraj/Suraj_data/CLIP_finetune/simCLR_40epoch_nc_all_domain_25percentAmartya.pt" , map_location=torch.device(device=device))
+    checkpoint = torch.load("model.pt" , map_location=torch.device(device=device)) # Enter the A-CLIP Model path in model.pt
     model_dict = classifier_clip.clip.state_dict()
     for k,v in checkpoint['model_state_dict'].items():
         if k in classifier_clip.clip.state_dict().keys() :
