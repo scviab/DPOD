@@ -1,4 +1,4 @@
-name: suraj
+name: dpod
 channels:
   - conda-forge
   - defaults
@@ -280,4 +280,4 @@ dependencies:
     - urllib3==2.0.2
     - vcrpy==5.1.0
     - wrapt==1.15.0
-prefix: /home/suraj/anaconda3/envs/suraj
+prefix: "" #Anaconda 3 Environment
