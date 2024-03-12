@@ -279,7 +279,7 @@ def train():
 try:
 
     
-    checkpoint = torch.load("/home/suraj/Suraj_data/CLIP_finetune/simCLR_40epoch_nc_all_domain_100percent.pt" , map_location=torch.device(device=device))
+    checkpoint = torch.load("model.pt" , map_location=torch.device(device=device)) #saved model to be introduced in model.pt
     model_dict = classifier_clip.clip.state_dict()
     for k,v in checkpoint['model_state_dict'].items():
         if k in classifier_clip.clip.state_dict().keys() :
