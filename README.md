@@ -1,7 +1,8 @@
 ### Can Out-of-Domain data help to Learn Domain-Specific Prompts for Multimodal Misinformation Detection?
-
-<div style="text-align:center"><img src="https://github.com/user-attachments/assets/e67bec56-5480-4622-b519-e71e479b58ee" height=75%, width=75%></div>
+Update: Accepted at WACV 2025.
 [Paper](https://arxiv.org/abs/2311.16496)
+<div style="text-align:center"><img src="https://github.com/user-attachments/assets/e67bec56-5480-4622-b519-e71e479b58ee"></div>
+
 
 ### Dataset Collection
 - The query images and captions are found in the NewsCLIPpings datasets (we use the merged balanced dataset) [[Link](https://github.com/g-luo/news_clippings)].
