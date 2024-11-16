@@ -1,5 +1,5 @@
 ### Can Out-of-Domain data help to Learn Domain-Specific Prompts for Multimodal Misinformation Detection?
-![DPOD](https://github.com/anonymouspeacock/DPOD/assets/151718362/5ed1a0d2-6d0c-45fc-abe9-386a6f6f03f2)
+
 [Paper](https://arxiv.org/abs/2311.16496)
 
 ### Dataset Collection
