@@ -8,7 +8,7 @@
 - The query images and captions are found in the NewsCLIPpings datasets (we use the merged balanced dataset) [[Link](https://github.com/g-luo/news_clippings)].
 - The whole NewsCLIPpings dataset was used in our task.
 ### Running Code
-##### Creating the Environment
+#### Creating the Environment
 Create the environment from the given yml file using the command:
 ```
 conda env create -f dpod_env.yml
@@ -19,23 +19,23 @@ conda activate dpod_env
 ```
 
 
-##### For Creating the Domain Embedding and Storing it into the JSON file
+#### For Creating the Domain Embedding and Storing it into the JSON file
 ```python
 python3 make_dom_vector.py
 ```
-##### Train CLIP-ViT B/32 using Label Aware Loss to get A-CLIP
+#### Train CLIP-ViT B/32 using Label Aware Loss to get A-CLIP
 ```python
 python3 make_label_aware_clip.py
 ```
-##### Running CoOp + A-CLIP
+#### Running CoOp + A-CLIP
 ```python
 python3 make_label_aware_clip.py
 ```
-##### Running our Proposed DPOD Framework
+#### Running our Proposed DPOD Framework
 ```python
 python3 main_ft_dpod.py
 ```
-##### Evaluating our Proposed DPOD Framework
+#### Evaluating our Proposed DPOD Framework
 ```python
 python3 evaluate_dpod.py
 ```
