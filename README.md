@@ -1,4 +1,4 @@
-### Can Out-of-Domain data help to Learn Domain-Specific Prompts for Multimodal Misinformation Detection?
+### Can Out-of-Domain data help to Learn Domain-Specific Prompts for Multimodal Misinformation Detection? (WACV 2025)
 
 [[Paper](https://arxiv.org/abs/2311.16496)]
 <div style="text-align:center"><img src="https://github.com/user-attachments/assets/e67bec56-5480-4622-b519-e71e479b58ee"></div>
