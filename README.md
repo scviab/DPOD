@@ -8,13 +8,11 @@
 - The query images and captions are found in the NewsCLIPpings datasets (we use the merged balanced dataset) [[Link](https://github.com/g-luo/news_clippings)].
 - The whole NewsCLIPpings dataset was used in our task.
 ### Running Code
-#### Creating the Environment
-Create the environment from the given yml file using the command:
+#### Setup
 ```
+git clone https://github.com/scviab/DPOD.git
+# Create and activate the environment:
 conda env create -f dpod_env.yml
-```
-Activate the environment using the command:
-```
 conda activate dpod_env
 ```
 
